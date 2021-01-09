@@ -7,3 +7,141 @@ body {
 .w-c {
   will-change: contents;
 }
+.ma-t-20 {
+  margin-top: 20px;
+}
+.col-a {
+  color: #0074D9;
+}
+.fl-d-c {
+  flex-direction: column;
+}
+.al-i-c {
+  align-items: center;
+}
+.d-f {
+  display: flex;
+}
+.ju-c-c {
+  justify-content: center;
+}
+.ju-c-sb {
+  justify-content: space-between;
+}
+.po-a {
+  position: absolute;
+}
+.he-32px {
+  height: 32px;
+}
+.wi-200px {
+  width: 200px;
+}
+.wi-300px {
+  width: 300px;
+}
+.ma-t-4 {
+  margin-top: 4px;
+}
+.ma-r-20 {
+  margin-right: 20px;
+}
+.bo-1px-s {
+  border: 1px solid #8d8d8d;
+}
+.d-f {
+  display: flex;
+}
+.he-400px {
+  height: 100vh;
+}
+.al-i-c {
+  align-items: center;
+}
+.pa-4px {
+  padding: 4px;
+}
+.bo-r {
+  border-radius: 3px;
+}
+.fl-d-c {
+  flex-direction: column;
+}
+.wi-100 {
+  width: 100%;
+}
+.hidden {
+  visibility: hidden;
+}
+.spinner {
+  width: 26px;
+  height: 26px;
+  -webkit-animation: spin 1s infinite linear;
+  -moz-animation: spin 1s infinite linear;
+  -o-animation: spin 1s infinite linear;
+  animation: spin 1s infinite linear;
+}
+
+.spinner .mask {
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.spinner .maskedCircle {
+  width: 20px;
+  height: 20px;
+  border-radius: 12px;
+  border: 3px solid #0b6ae5;
+}
+
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cache-list {
+  border: 1px solid #d0d0d0;
+  height: 80px;
+  overflow: auto;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #0074D9;
+}
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+  background: #0074D9;
+}

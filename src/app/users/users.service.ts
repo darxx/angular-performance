@@ -1,6 +1,11 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import userNames from '../all-users.json';
-import {Users} from '../app.component';
+export interface Users {
+  name: string;
+  img: string;
+  title?: string;
+}
+
 
 @Injectable({
   providedIn: 'root'

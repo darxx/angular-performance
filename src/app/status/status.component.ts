@@ -2,10 +2,10 @@ import {Component} from '@angular/core';
 import {SearchService} from '../search/service/search.service';
 
 @Component({
-  selector: 'app-list',
-  templateUrl: './list.component.html'
+  selector: 'app-status',
+  templateUrl: './status.component.html'
 })
-export class ListComponent {
+export class StatusComponent {
   constructor(
     public searchService: SearchService
   ) {

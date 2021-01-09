@@ -1,0 +1,5 @@
+<div *ngIf="searchService.model.isCacheEnabled">
+  <span>Enable Cache: </span>
+  <input type="checkbox"
+         [formControl]="searchService.model.isCacheEnabled" />
+</div>

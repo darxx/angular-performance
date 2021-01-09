@@ -1,0 +1,14 @@
+<div class="d-f he-32px al-i-c">
+  <input class="wi-200px ma-r-20"
+         type="text"
+         [formControl]="searchService.model.search" />
+  <div [ngClass]="{'spinner': searchService.model.isSearching}">
+    <fa-icon class="ma-t-4"
+             *ngIf="!searchService.model.isSearching"
+             size="lg"
+             [icon]="icon"></fa-icon>
+    <div class="mask">
+      <div class="maskedCircle"></div>
+    </div>
+  </div>
+</div>
