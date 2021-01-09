@@ -1,0 +1,7 @@
+<div>
+  <input type="text"
+         [formControl]="search">
+</div>
+<span>Users: {{users?.length}}</span>
+<div>Search time: {{performance}}</div>
+<app-list [list]="users"></app-list>

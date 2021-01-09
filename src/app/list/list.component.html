@@ -1,0 +1,16 @@
+<cdk-virtual-scroll-viewport class="he-400px w-c"
+                             itemSize="60"
+                             minBufferPx="900"
+                             maxBufferPx="1800">
+  <div class="d-f ju-c-c al-i-c wi-100 fl-d-c">
+    <div class="ma-t-20 bo-1px-s d-f ju-c-c al-i-c pa-4px bo-r wi-300px"
+         *cdkVirtualFor="let item of list">
+      <div>{{item.name}}</div>
+      <div>{{item?.title}}</div>
+      <img [src]="item.img"
+           width="30"
+           height="30"
+           alt="avatar" />
+    </div>
+  </div>
+</cdk-virtual-scroll-viewport>
